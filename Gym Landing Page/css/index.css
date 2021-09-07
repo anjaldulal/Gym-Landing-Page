@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+}
+div.container{
+    background-color: black;
+    height: 60px;
+    /* width: 100vw; */
+}
+.logo{
+    float: left;
+    margin: 10px 20px 5px 30px;
+    padding: 7px 12px;
+}
+.logo a{
+    color: white;
+    font-family: 'Lobster Two', cursive;
+}
+.logo a:hover{
+    color: rgb(17, 199, 206);
+}
+.navbar{
+    float: left;
+    margin: 10px 0px 10px 30px;
+}
+.navbar li{
+    float: left;
+    padding: 12px 20px;
+}
+.navbar li a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar li a:hover{
+    color: rgb(17, 199, 206);
+}
+.searchbox{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    width: 20%;
+
+}
+.searchbox input{
+    height: 25px;
+    width: 80%;
+    /* display: block; */
+    margin: 7px auto;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.mycontent{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    color: rgb(248, 242, 241);
+    width: 40%;
+    height: 150px;
+    text-align: center;
+}
+.mycontent h2{
+    font-size: 40px;
+    margin: 5px 5px;
+}
+.mycontent p{
+    font-size: 20px;
+}
+.mycontent a{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    padding: 10px 30px;
+    background-color: rgb(211, 9, 9);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mycontent a:hover{
+    background-color: rgb(56, 2, 2);
+    
+}
+.content img{
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
